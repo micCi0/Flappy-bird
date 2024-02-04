@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+#game{
+    background: url("./images/bg.png") no-repeat;
+    width: 430px;
+    height: 600px;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    top: 2vh;
+}
+.top{
+    background: url("./images/barrier.png") no-repeat;
+    width: 40px;
+    height: 200px;
+    background-size: cover;
+    position: absolute;
+    left: 392px;
+    top: 0;
+}
+.bottom{
+    background: url("./images/barrier.png") no-repeat;
+    width: 40px;
+    height: 200px;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 392px;
+}
+.bird{
+    background: url("./images/flappybird.png") no-repeat;
+    width: 60px;
+    height: 40px;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-50%,50%);
+    top: 50%;
+    left: 10%;
+}
+.playNow{
+    position: absolute;
+    transform: translate(-50%,50%);
+    left: 50%;
+    top: 50%;
+    padding: 4px 14px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+p{
+    position: absolute;
+}
